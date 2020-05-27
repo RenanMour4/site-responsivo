@@ -147,9 +147,9 @@ header p{
 	
 }
 #competencias .comp p{
-	border-left: 2px solid black;
-	border-right: 2px solid black;
-	border-bottom: 2px solid black;
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
 	border-radius: 20px;
 	margin-top: 0;
 	font-family: "gochi-hand","Helvetica","arial,sans-serif";
@@ -262,7 +262,7 @@ header{
 
 }
 #competencias .comp{
-	width: 33.3333333333%;
+	width: 33.3333333%;
 	text-align: center;
 }
 
