@@ -104,7 +104,7 @@ header p{
 
 }
 .foto img{
-	width: 60%;
+	width: 50%;
 }
 .foto{
 	float: left;
@@ -120,6 +120,8 @@ header p{
 #competencias {
 	display: flex;
 	flex-direction: column;
+
+	
 	align-items: center;
 	padding-top: 20px;
 	margin-left: 20px
@@ -157,6 +159,94 @@ header p{
 	padding-left: 15px;
 	line-height: 1.5;  
 }
+.trab img:hover{
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg) ;
+	-moz-transform: rotate(-10deg) ;
+	-o-transform: rotate(-10deg) ;
+	transform: rotate(-10deg) ;
+}
+.trab img{
+	border: 10px groove #737373 ;
+}
+
+/*hobby*/
+#hobby {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 100%;
+}
+#hobby h2{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 2em;
+	text-align: center;
+}
+.hobby{
+	width: 80%;
+	align-items: center;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px; 
+}
+.hobby h3{
+	font-size: 1.5em;
+	margin-top: 30px;
+	margin-bottom: 14px;
+
+}
+/*Contato*/
+
+#contato {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #737373 ;
+	width: 100%;
+}
+#contato img{
+	border-radius: 50%;
+}
+#contato h2{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size:2em;
+	text-align: center;
+	color: #0D0D0D; 
+}
+
+#contato > p{
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	color: #0D0D0D ; 
+	
+}
+#contato a{
+	text-decoration: none;
+	color: #0D0D0D;
+	font-family: 'Piedra', cursive;
+	text-align: center;
+
+}
+
+/*footer*/
+footer {
+	text-align: center;
+	width: 100%;
+	background-color: #0D0D0D;
+	color: #F2F2F2;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
 
 
 
@@ -175,7 +265,7 @@ nav ul{
 
 }
 
-}
+
 /*header*/
 header{
 	height: 60vh;
@@ -256,13 +346,53 @@ header{
 	flex-direction: row;
 	flex-wrap: wrap;
 }
+
 #competencias h2, h3{
 	width: 100%;
 	text-align: center;
 
 }
-#competencias .comp{
-	width: 33.3333333%;
+
+#competencias .comp {
+	width: 33.33333333333%;
+	text-align: center;
+}
+/*Contato*/
+#contato{
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	max-height: 40vh;
+	width: 100%;
+}
+#contato h2,
+#contato p{
+	width: 100%;
 	text-align: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
